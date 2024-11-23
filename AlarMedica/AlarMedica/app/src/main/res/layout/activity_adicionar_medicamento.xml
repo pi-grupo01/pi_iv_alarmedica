@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center">
+
+    <!-- Campo para o nome do medicamento -->
+    <EditText
+        android:id="@+id/et_nome_medicamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nome_do_medicamento"
+        android:inputType="text" />
+
+    <!-- Campo para a frequência -->
+    <EditText
+        android:id="@+id/et_frequencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/frequencia_ex_2x_dia"
+        android:inputType="text" />
+
+    <!-- Campo para a dose -->
+    <EditText
+        android:id="@+id/et_dose"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/dose_ex_500mg"
+        android:inputType="text" />
+
+    <!-- Campo para o período de uso -->
+    <EditText
+        android:id="@+id/et_periodo_uso"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/per_odo_de_uso_ex_7_dias"
+        android:inputType="text" />
+
+    <!-- Botão para salvar o medicamento -->
+    <Button
+        android:id="@+id/btn_salvar_medicamento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/salvar_medicamento" />
+</LinearLayout>
+

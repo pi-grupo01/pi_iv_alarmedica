@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- EditText para Nome do Medicamento -->
+    <EditText
+        android:id="@+id/editTextNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nome do Medicamento"
+        android:inputType="text" />
+
+    <!-- EditText para Dosagem -->
+    <EditText
+        android:id="@+id/editTextDosagem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dosagem"
+        android:inputType="text" />
+
+    <!-- EditText para Frequência -->
+    <EditText
+        android:id="@+id/editTextFrequencia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Horário"
+        android:inputType="text" />
+
+    <!-- Botão para Adicionar Medicamento -->
+    <Button
+        android:id="@+id/btnAdicionar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Adicionar Medicamento" />
+
+    <!-- RecyclerView para mostrar a lista de medicamentos -->
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvMedicamentos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+

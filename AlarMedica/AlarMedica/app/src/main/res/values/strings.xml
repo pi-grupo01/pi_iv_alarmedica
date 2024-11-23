@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">AlarMedica</string>
+    <string name="nome_do_medicamento">Nome do Medicamento</string>
+    <string name="frequencia_ex_2x_dia">Frequencia (ex: 2x/dia)</string>
+    <string name="dose_ex_500mg">Dose (ex: 500mg)</string>
+    <string name="per_odo_de_uso_ex_7_dias">Período de Uso (ex: 7 dias)</string>
+    <string name="salvar_medicamento">Salvar Medicamento</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="?android:attr/selectableItemBackground">
+
+    <!-- Exibe o nome do medicamento -->
+    <TextView
+        android:id="@+id/tvNomeMedicamento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nome do Medicamento"
+        android:textSize="18sp" />
+
+    <!-- Exibe a dosagem do medicamento -->
+    <TextView
+        android:id="@+id/tvDosagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dosagem"
+        android:textSize="16sp" />
+
+    <!-- Exibe a frequência de uso -->
+    <TextView
+        android:id="@+id/tvFrequencia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Frequência"
+        android:textSize="16sp" />
+</LinearLayout>

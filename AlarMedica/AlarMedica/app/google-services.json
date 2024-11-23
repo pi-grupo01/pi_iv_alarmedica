@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "171560365447",
+    "firebase_url": "https://alarmedica-default-rtdb.firebaseio.com",
+    "project_id": "alarmedica",
+    "storage_bucket": "alarmedica.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:171560365447:android:d111f59565be0ad08ef722",
+        "android_client_info": {
+          "package_name": "com.grupo05.alarmedica"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBhTyxHWsYxxgYwkfJf1k3DIU0WrKvHIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
